@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="ro.vlad.simion.softbinatior.ui.MainFragment"
+        android:label="mainFragment" />
+
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="ro.vlad.simion.softbinatior.ui.details.AnimalDetailsFragment"
+        android:label="detailsFragment">
+        <argument
+            android:name="animalId"
+            app:argType="string" />
+
+    </fragment>
+
+</navigation>

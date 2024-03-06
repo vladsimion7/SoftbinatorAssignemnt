@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SimionVladSoftbinatior</string>
+    <string name="page_counter_format">%1$s / %2$s</string>
+    <string name="location">Location</string>
+    <string name="location_placeholder">New York</string>
+    <string name="pets_for_adoption">Pets for adoption</string>
+    <string name="meet_name_format">Meet %1$s</string>
+    <string name="address">Address</string>
+    <string name="coat_label">Coat:</string>
+    <string name="color_label">Color:</string>
+    <string name="age_label">Age</string>
+    <string name="gender_label">Gender</string>
+    <string name="size_label">Size</string>
+
+</resources>
